@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <title>Daniel Lazarev</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+</head>
+<body>
+    <nav>
+        <a id="title" href="/">Daniel Lazarev</a>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/research/" style="color: #1279BE;">Research</a></li>
+            <li><a href="/publications/"> Publications</a></li>
+            <li><a href="/contact/">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <div class="content">
+        <h1>Research</h1>
+        <h2>Research Interests</h2>
+        <p>I’m interested in developing rigorous mathematical tools and theoretical principles to analyze and gain a deeper insight into complex systems in biology and physics.</p>
+        <p>Much of physics has enjoyed access to powerful mathematics that seems “unreasonably effective,” even when it was specially tailored for such applications [1]. However, some of the toughest problems that face science today— those dealing with complex systems, nonequilibrium thermodynamics, nonlinear dynamics, turbulence (all of which, incidentally, are exemplified in various problems from biology)—lack the definitive mathematical tools needed to best them [2, 3].</p>
+        <p>I’m particularly excited about how simple yet powerful variational principles, which have proven essential in many areas of physics and mathematics, can bear on these problems. One such principle that I’m currently using is the Maximum Entropy Principle (Max Ent), which originated in thermodynamics and statistical physics, but eventually made its way to information theory. I believe that Max Ent, as well as other ideas from information theory, may serve as a step in the right direction [4].</p>
+        <p>I’m also generally excited about bringing over new tools from the abstract world of mathematics and theoretical physics to the arena of biology, where their application can lead to unexpected discoveries and deep insights.</p>
+        
+        
+        <p>[1] Eugene Wigner (1960), <a>“The Unreasonable Effectiveness of Mathematics in the Natural Sciences.”</a></p>
+        <p>[2] Warren Weaver (1948), <a>“Science and Complexity.”</a></p>
+        <p>[3] Michael C. Reed (2004), <a>“Why is Mathematical Biology So Hard?”</a>. Michael C. Reed (2015), <a>“Mathematical Biology is Good for Mathematics”</a>.</p>
+        <p>[4] John Archibald Wheeler (1990), <a>“Information, physics, quantum: The search for links.”</a></p>
+        
+        <h2>Current and Previous Work</h2>
+        <h3>Maximum entropy multilayer SNP-phenotype networks</h3>
+        <p>Using data from the UK Biobank, such as the LD matrix and the genetic correlation matrix for a set of SNPs and phenotypes, I’m working with Ben Neale at the Broad Institute and MGH on constructing a multilayer interaction network of SNPs and phenotypes. The phenotypes are divided into several layers, depending on their complexity and the systemic level at which they manifest (e.g., BMI vs. LDL expression). The Maximum Entropy Principle (Max Ent) is used to first construct an initial network based on the UK Biobank data. A second set of structural constraints on the network allow for the prediction of additional intermediate nodes, and a second application of Max Ent completes the network. My work includes developing the theory behind this method as well as developing the algorithms and writing the code to implement it.</p>
+        
+        <h3>Maximum entropy admissibility condition for the Euler and Navier-Stokes equations</h3>
+        <p>The Euler and Navier-Stokes equations model fluid flow and turbulence, but admit multiple solutions, which is undesirable for any equations modeling physical phenomena. This is not only seen in the mathematical analysis of these equations, but also in numerical solutions, where different methods lead to different solutions. James Glimm (Stony Brook University), Gui-Qiang Chen (University of Oxford), and I proved that the maximum entropy production principle is a necessary admissibility condition for the physically relevant solution to those equations.</p>
+        
+        <h3>Size and charge of ring molecules using atomic force microscopy</h3>
+        <p>An atomic force microscope has a cantilever with a metallic tip that scans a given surface. The tip can come in contact with the surface to give information about its topology, or be slightly separated from the surface, in which case it can shed light on the charge content of the surface as the tip deflects from the surface based on the surface’s charges. For this latter scanning mode, Fredy Zypman (Yeshiva University) and I developed a method that gives the size (radius) and charge density of a ring molecule based on the deflection distance and maximum force. Our method was first developed for molecules in vacuo, but we subsequently extended it to rings immersed in an electrolyte, which is a more realistic setting for most applications (e.g., biological molecular samples), where the ring sample is practically inseparable from its electrolytic environment.</p>
+        
+        <h3>Toy models for simulating the motion of charged particles in accelerators and other magnetic instruments perturbed by Earth’s magnetic field</h3>
+        <p>Marian Gidea (Yeshiva University) and I analyzed the motion of a charged particle in the magnetic field due to a circular wire, and introduced constant, decaying or periodic perturbations to model how such effects due to Earth’s magnetic field or some other external field may affect the motion of the particle. Specifically, we looked at how such perturbations affect various otherwise conserved terms, the particle trapping region of the wire, and the particle’s trajectory in general. We also constructed Poincaré sections to study regions of chaotic motion, and how they are affected by the perturbations.</p>
+        
+        <h3>Small-world networks and the spread of “cancer-promoting” behaviors</h3>
+        <p>Marian Gidea (Yeshiva University) and I used small-world networks to model how behaviors that are generally viewed as increasing the risk of developing cancer—smoking, excessive alcohol consumption, poor diet, and unsafe sex, among others—can spread among students in a college campus setting.</p>
+    </div>
+</body>
+</html>
