@@ -163,7 +163,7 @@ div.home {
     /* border: 2px solid aqua; */
 }
 
-img.home {
+.home-icons {
     /* border: 2px solid lightcoral; */
     display: inline-block; 
     position: relative;
@@ -210,16 +210,16 @@ img.home {
         width: calc(100% - 45px);
         /* float: left; */
     }
-    img.home {
+    .home-icons {
         display: block;
         position: absolute;
         right: 0;
-        
+        top: 0px;
     }
-    .linkedin {
+    #linkedin {
         top: 25%;
     }
-    .scholar {
+    #scholar {
         top: calc(25% + 50px);
     }
     #home-summary {
