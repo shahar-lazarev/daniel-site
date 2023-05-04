@@ -163,7 +163,7 @@ p {
     /* border: 2px solid aqua; */
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
     .content {       
         /* text-align: center; */
     }
@@ -219,7 +219,7 @@ p {
     background-color: #303030;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
     #download-content { max-width: 355px; }
     #cv-button { margin: 0; }
     #contact-info { 
